@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Add Product</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="topnav">
+            <img src="images/navicon.PNG" style="right: 5px;">
+            <input type="text"  placeholder="Search" style="border-color: rgba(255, 255, 255, 0.596);  position: absolute;top:21;margin-left: 40px;width: 200px">
+            <i class="fa fa-search" aria-hidden="true" style="position: absolute;top:22;margin-left:240px;" ></i>
+            <i class="fas fa-bell" aria-hidden="true" style="position: absolute;top:22;margin-left:640px"></i>
+            <h3 style="position: absolute;top:1;margin-left:950px">Welcome Admin</h3>
+            <button type="button" class="lightButton" style="width:80px; float: right;padding: 5px;margin-left: 10px;">Logout</button>
+    </div>
+    <div class="sideprofile" >
+        <table style="background-color: rgb(172, 168, 168); margin-top: 80px;margin-left: 50px;">
+        <tr>
+        <th><h4 style="color:white;padding: 5px">PROFILE</h4></th>
+        <th><button type="button" style="background-color: rgb(172, 168, 168);border: 0;color: white;padding: 5px;margin-left: 80px;">Edit</button></th>
+        </tr>
+        </table>
+        <img src="images/blank.jpg" style="width:110px; height:130px;margin-top: 20px;margin-left:100px">
+    <div style="margin-left:100px">
+        <h4 id="name">Helen Cho</h4>
+        <h4>ID</h4>
+        <h5 id="id" style="color: grey;">765344</h5>
+        <h4>Designation</h4>
+        <h5 id="Designation" style="color: grey;">SR.admin</h5>
+        <h4 >OFFICE</h4>    
+        <h5 id="office" style="color: grey;">NYC,NY,USA</h5>
+    </div>              
+    </div>
+    <div class="container">
+        <button class="lightButton" style="border-radius: 0;padding: 5px;width: 250px;font-size: 25px;">PRODUCTS</button>
+        <button class="lightButton" style="border-radius: 0;padding: 5px;width: 250px;font-size: 25px;">VENDORS</button><br>
+        <select name="Choose action" style="margin-top: 15px; background-color: rgb(247, 241, 241);width: 150px" >
+            <option value="#null">Choose Action</option>
+            <option value="#action1">action1</option>
+            <option value="#action2">action2</option>
+            <option value="#action3">action3</option>
+            </select>
+            <input type="text"  placeholder="Category Name" style="background-color: rgb(247, 241, 241); margin-left:10px;width: 200px">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <select name="sort by" style="margin-top: 15px; background-color: rgb(247, 241, 241);width: 150px" >
+                    <option value="#null">Sort By</option>
+                    <option value="#action1">action1</option>
+                    <option value="#action2">action2</option>
+                    <option value="#action3">action3</option>
+                    </select>
+            <button type="button" class="darkButton" style="margin-left: 100px;">Add Product</button>    
+            <table style="margin-top: 40px">
+                <tr>
+                    <th ><h5 style="color: rgb(194, 201, 201)">Product list</h5></th>
+                    <th ><h5 style="color: rgb(194, 201, 201); margin-left: 80px;">Brand</h5></th>
+                    <th ><h5 style="color: rgb(194, 201, 201); margin-left: 80px;">Category</h5></th>
+                    <th ><h5 style="color: rgb(194, 201, 201); margin-left: 80px;">Rating</h5></th>
+                </tr>  
+            </table>   
+    </div>
+</body>
+</html>
